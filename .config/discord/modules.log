@@ -1,0 +1,145 @@
+[Modules] Modules initializing
+[Modules] Distribution: remote
+[Modules] Host updates: enabled
+[Modules] Module updates: enabled
+[Modules] Module install path: /home/zeus/.config/discord/0.0.5/modules
+[Modules] Module installed file path: /home/zeus/.config/discord/0.0.5/modules/installed.json
+[Modules] Module download path: /home/zeus/.config/discord/0.0.5/modules/pending
+[Modules] Bootstrapping...
+[Modules] Installing discord_desktop_core@1 from /usr/local/bin/Discord/resources/bootstrap/discord_desktop_core.zip
+[Modules] Installing discord_erlpack@1 from /usr/local/bin/Discord/resources/bootstrap/discord_erlpack.zip
+[Modules] Installing discord_game_utils@1 from /usr/local/bin/Discord/resources/bootstrap/discord_game_utils.zip
+[Modules] Installing discord_rpc@1 from /usr/local/bin/Discord/resources/bootstrap/discord_rpc.zip
+[Modules] Installing discord_spellcheck@1 from /usr/local/bin/Discord/resources/bootstrap/discord_spellcheck.zip
+[Modules] Installing discord_utils@1 from /usr/local/bin/Discord/resources/bootstrap/discord_utils.zip
+[Modules] Installing discord_voice@1 from /usr/local/bin/Discord/resources/bootstrap/discord_voice.zip
+[Modules] Finished module installations. [success: 7] [failure: 0]
+[Modules] Checking for host updates.
+[Modules] Host update is available. Manual update required!
+[Modules] Modules initializing
+[Modules] Distribution: remote
+[Modules] Host updates: enabled
+[Modules] Module updates: enabled
+[Modules] Module install path: /home/zeus/.config/discord/0.0.9/modules
+[Modules] Module installed file path: /home/zeus/.config/discord/0.0.9/modules/installed.json
+[Modules] Module download path: /home/zeus/.config/discord/0.0.9/modules/pending
+[Modules] Bootstrapping...
+[Modules] Installing discord_desktop_core@0 from /opt/discord/resources/bootstrap/discord_desktop_core.zip
+[Modules] Failed installing discord_desktop_core@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_desktop_core.zip'
+[Modules] Installing discord_erlpack@0 from /opt/discord/resources/bootstrap/discord_erlpack.zip
+[Modules] Failed installing discord_erlpack@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_erlpack.zip'
+[Modules] Installing discord_spellcheck@0 from /opt/discord/resources/bootstrap/discord_spellcheck.zip
+[Modules] Failed installing discord_spellcheck@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_spellcheck.zip'
+[Modules] Installing discord_utils@0 from /opt/discord/resources/bootstrap/discord_utils.zip
+[Modules] Failed installing discord_utils@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_utils.zip'
+[Modules] Installing discord_voice@0 from /opt/discord/resources/bootstrap/discord_voice.zip
+[Modules] Failed installing discord_voice@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_voice.zip'
+[Modules] Finished module installations. [success: 0] [failure: 5]
+[Modules] Checking for host updates.
+[Modules] Host is up to date.
+[Modules] Checking for module updates at https://discordapp.com/api/modules/stable/versions.json
+[Modules] Module update available: discord_desktop_core@1 [installed: 0]
+[Modules] Module update available: discord_erlpack@1 [installed: 0]
+[Modules] Module update available: discord_spellcheck@1 [installed: 0]
+[Modules] Module update available: discord_utils@1 [installed: 0]
+[Modules] Module update available: discord_voice@1 [installed: 0]
+[Modules] Fetching discord_desktop_core@1 from https://discordapp.com/api/modules/stable/discord_desktop_core/1
+[Modules] Streaming discord_desktop_core@1 [1638870 bytes] to /home/zeus/.config/discord/0.0.9/modules/pending/discord_desktop_core-1.zip
+[Modules] Fetching discord_erlpack@1 from https://discordapp.com/api/modules/stable/discord_erlpack/1
+[Modules] Streaming discord_erlpack@1 [1534631 bytes] to /home/zeus/.config/discord/0.0.9/modules/pending/discord_erlpack-1.zip
+[Modules] Fetching discord_spellcheck@1 from https://discordapp.com/api/modules/stable/discord_spellcheck/1
+[Modules] Streaming discord_spellcheck@1 [10201313 bytes] to /home/zeus/.config/discord/0.0.9/modules/pending/discord_spellcheck-1.zip
+[Modules] Fetching discord_utils@1 from https://discordapp.com/api/modules/stable/discord_utils/1
+[Modules] Streaming discord_utils@1 [2615975 bytes] to /home/zeus/.config/discord/0.0.9/modules/pending/discord_utils-1.zip
+[Modules] Fetching discord_voice@1 from https://discordapp.com/api/modules/stable/discord_voice/1
+[Modules] Streaming discord_voice@1 [8852337 bytes] to /home/zeus/.config/discord/0.0.9/modules/pending/discord_voice-1.zip
+[Modules] Finished module downloads. [success: 5] [failure: 0]
+[Modules] Relaunching to install module updates...
+[Modules] Modules initializing
+[Modules] Distribution: remote
+[Modules] Host updates: enabled
+[Modules] Module updates: enabled
+[Modules] Module install path: /home/zeus/.config/discord/0.0.9/modules
+[Modules] Module installed file path: /home/zeus/.config/discord/0.0.9/modules/installed.json
+[Modules] Module download path: /home/zeus/.config/discord/0.0.9/modules/pending
+[Modules] Installing updates...
+[Modules] Installing discord_desktop_core@1 from /home/zeus/.config/discord/0.0.9/modules/pending/discord_desktop_core-1.zip
+[Modules] Installing discord_erlpack@1 from /home/zeus/.config/discord/0.0.9/modules/pending/discord_erlpack-1.zip
+[Modules] Installing discord_spellcheck@1 from /home/zeus/.config/discord/0.0.9/modules/pending/discord_spellcheck-1.zip
+[Modules] Installing discord_utils@1 from /home/zeus/.config/discord/0.0.9/modules/pending/discord_utils-1.zip
+[Modules] Installing discord_voice@1 from /home/zeus/.config/discord/0.0.9/modules/pending/discord_voice-1.zip
+[Modules] Finished module installations. [success: 5] [failure: 0]
+[Modules] Checking for host updates.
+[Modules] Host is up to date.
+[Modules] Checking for module updates at https://discordapp.com/api/modules/stable/versions.json
+[Modules] No module updates available.
+[Modules] Starting to install discord_zstd...
+[Modules] Fetching discord_zstd@1 from https://discordapp.com/api/modules/stable/discord_zstd/1
+[Modules] Streaming discord_zstd@1 [546292 bytes] to /home/zeus/.config/discord/0.0.9/modules/pending/discord_zstd-1.zip
+[Modules] Finished module downloads. [success: 1] [failure: 0]
+[Modules] Installing discord_zstd@1 from /home/zeus/.config/discord/0.0.9/modules/pending/discord_zstd-1.zip
+[Modules] Relaunching to install module updates...
+[Modules] Modules initializing
+[Modules] Distribution: remote
+[Modules] Host updates: enabled
+[Modules] Module updates: enabled
+[Modules] Module install path: /home/zeus/.config/discord/0.0.9/modules
+[Modules] Module installed file path: /home/zeus/.config/discord/0.0.9/modules/installed.json
+[Modules] Module download path: /home/zeus/.config/discord/0.0.9/modules/pending
+[Modules] Could not clean downloaded modules
+[Modules] Error: ENOENT: no such file or directory, unlink '/home/zeus/.config/discord/0.0.9/modules/pending/discord_game_utils-1.zip'
+    at Object.unlinkSync (fs.js:930:3)
+    at entries.forEach.entry (/opt/discord/resources/app.asar/common/moduleUpdater.js:277:22)
+    at Array.forEach (<anonymous>)
+    at cleanDownloadedModules (/opt/discord/resources/app.asar/common/moduleUpdater.js:266:13)
+    at Object.init (/opt/discord/resources/app.asar/common/moduleUpdater.js:225:5)
+    at Object.update (/opt/discord/resources/app.asar/app_bootstrap/appUpdater.js:31:17)
+    at startUpdate (/opt/discord/resources/app.asar/app_bootstrap/bootstrap.js:84:14)
+    at tryStart (/opt/discord/resources/app.asar/app_bootstrap/singleInstance.js:121:5)
+    at tryStart (/opt/discord/resources/app.asar/app_bootstrap/singleInstance.js:79:5)
+    at Object.create (/opt/discord/resources/app.asar/app_bootstrap/singleInstance.js:108:3)
+[Modules] Modules initializing
+[Modules] Distribution: remote
+[Modules] Host updates: enabled
+[Modules] Module updates: enabled
+[Modules] Module install path: /home/zeus/.config/discord/0.0.9/modules
+[Modules] Module installed file path: /home/zeus/.config/discord/0.0.9/modules/installed.json
+[Modules] Module download path: /home/zeus/.config/discord/0.0.9/modules/pending
+[Modules] No updates to install
+[Modules] Checking for host updates.
+[Modules] No updates to install
+[Modules] Checking for host updates.
+[Modules] Host is up to date.
+[Modules] Checking for module updates at https://discordapp.com/api/modules/stable/versions.json
+[Modules] Host is up to date.
+[Modules] Checking for module updates at https://discordapp.com/api/modules/stable/versions.json
+[Modules] No module updates available.[Modules] No module updates available.
+
+[Modules] Starting to install discord_rpc...
+[Modules] Fetching discord_rpc@2 from https://discordapp.com/api/modules/stable/discord_rpc/2
+[Modules] Streaming discord_rpc@2 [143822 bytes] to /home/zeus/.config/discord/0.0.9/modules/pending/discord_rpc-2.zip
+[Modules] Finished module downloads. [success: 1] [failure: 0][Modules] Starting to install discord_rpc...
+[Modules] Fetching discord_rpc@2 from https://discordapp.com/api/modules/stable/discord_rpc/2
+[Modules] Streaming discord_rpc@2 [143822 bytes] to /home/zeus/.config/discord/0.0.9/modules/pending/discord_rpc-2.zip
+[Modules] Finished module downloads. [success: 1] [failure: 0]
+[Modules] Installing discord_rpc@2 from /home/zeus/.config/discord/0.0.9/modules/pending/discord_rpc-2.zip
+[Modules] Finished module installations. [success: 1] [failure: 0]
+
+[Modules] Installing discord_rpc@2 from /home/zeus/.config/discord/0.0.9/modules/pending/discord_rpc-2.zip
+[Modules] Relaunching to install module updates...
+[Modules] Modules initializing
+[Modules] Distribution: remote
+[Modules] Host updates: enabled
+[Modules] Module updates: enabled
+[Modules] Module install path: /home/zeus/.config/discord/0.0.9/modules
+[Modules] Module installed file path: /home/zeus/.config/discord/0.0.9/modules/installed.json
+[Modules] Module download path: /home/zeus/.config/discord/0.0.9/modules/pending
+[Modules] No updates to install
+[Modules] Checking for host updates.
+[Modules] Host is up to date.
+[Modules] Checking for module updates at https://discordapp.com/api/modules/stable/versions.json
+[Modules] No module updates available.
+[Modules] Starting to install discord_media...
+[Modules] Fetching discord_media@0 from https://discordapp.com/api/modules/stable/discord_media/0
+[Modules] Streaming discord_media@0 [251 bytes] to /home/zeus/.config/discord/0.0.9/modules/pending/discord_media-0.zip
+[Modules] Finished module downloads. [success: 0] [failure: 1]

@@ -1,0 +1,4 @@
+rofi.theme: ~/.cache/wal/colors-rofi-dark.rasi
+rofi.font: Roboto Mono Semibold 9
+rofi.width: 700
+rofi.scrollbar: true
