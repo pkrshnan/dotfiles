@@ -1,14 +1,14 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
-
 # Path to your oh-my-zsh installation.
-  export ZSH="/home/zeus/.oh-my-zsh"
+export ZSH="/home/hades/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="minimal_improve"
+# ZSH_THEME="minimal_improve"
+ZSH_THEME="agnoster"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -64,10 +64,11 @@ ZSH_THEME="minimal_improve"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
   git
+  zsh-autosuggestions
+  zsh-syntax-highlighting
 )
 
 source $ZSH/oh-my-zsh.sh
-
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
@@ -95,8 +96,24 @@ source $ZSH/oh-my-zsh.sh
 #
 # Example aliases
 alias vim=nvim
-alias connect="sudo dhcpcd enp33s0"
+alias cat="bat --theme ansi-dark"
+alias note="Scripts/notes.sh"
+alias aquadrone="cd ~/Developer/aquadrone && workon keras-cnn"
+alias keyboard="~/Scripts/keyboard"
+alias wiki="nvim -c 'VimwikiIndex'"
+alias light="wal -i ~/Wallpapers/Mountains.jpg --saturate 0.7 -l && ~/Scripts/genzathurarc && ~/Scripts/dunst && spicetify apply" 
+alias dark="wal -i ~/Wallpapers/Mountains.jpg --saturate 0.6 && ~/Scripts/genzathurarc && ~/Scripts/dunst && spicetify apply"
+alias scrot="gnome-screenshot -a -c"
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+VISUAL=nvim; export VISUAL EDITOR=nvim; export EDITOR
+export WORKON_HOME=$HOME/.virtualenvs
+export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
+source /usr/bin/virtualenvwrapper.sh
+
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+[[ -s "/usr/local/rvm/scripts/rvm" ]] && source "/usr/local/rvm/scripts/rvm"
+export PATH="~/.npm-global:/home/hades/.local/bin:$PATH"
+
+
