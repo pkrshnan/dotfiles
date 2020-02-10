@@ -1,0 +1,15 @@
+2019/11/21-16:38:25.523 75fb Reusing MANIFEST /home/hades/.config/chromium/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2019/11/21-16:38:25.523 75fb Recovering log #27
+2019/11/21-16:38:25.540 75fb Reusing old log /home/hades/.config/chromium/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/000027.log 
+2019/11/21-16:38:40.076 7763 Level-0 table #31: started
+2019/11/21-16:38:40.116 7763 Level-0 table #31: 4402989 bytes OK
+2019/11/21-16:38:40.118 7763 Delete type=0 #27
+2019/11/21-16:38:40.118 7763 Compacting 4@0 + 1@1 files
+2019/11/21-16:38:40.139 7763 Generated table #32@0: 42 keys, 434962 bytes
+2019/11/21-16:38:40.139 7763 Compacted 4@0 + 1@1 files => 434962 bytes
+2019/11/21-16:38:40.154 7763 compacted to: files[ 0 1 1 0 0 0 0 ]
+2019/11/21-16:38:40.154 7763 Delete type=2 #28
+2019/11/21-16:38:40.154 7763 Delete type=2 #25
+2019/11/21-16:38:40.154 7763 Delete type=2 #31
+2019/11/21-16:38:40.154 7763 Delete type=2 #20
+2019/11/21-16:38:40.154 7763 Delete type=2 #22

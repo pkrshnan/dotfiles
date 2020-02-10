@@ -1,0 +1,14 @@
+2020/02/09-13:29:56.123 a6c Recovering log #144
+2020/02/09-13:29:56.124 a6c Level-0 table #146: started
+2020/02/09-13:29:56.125 a6c Level-0 table #146: 710 bytes OK
+2020/02/09-13:29:56.135 a6c Delete type=3 #142
+2020/02/09-13:29:56.135 a6c Delete type=0 #144
+2020/02/09-13:29:56.135 d43 Compacting 4@0 + 1@1 files
+2020/02/09-13:29:56.143 d43 Generated table #148@0: 1 keys, 527 bytes
+2020/02/09-13:29:56.143 d43 Compacted 4@0 + 1@1 files => 527 bytes
+2020/02/09-13:29:56.145 d43 compacted to: files[ 0 1 0 0 0 0 0 ]
+2020/02/09-13:29:56.145 d43 Delete type=2 #140
+2020/02/09-13:29:56.146 d43 Delete type=2 #135
+2020/02/09-13:29:56.146 d43 Delete type=2 #143
+2020/02/09-13:29:56.146 d43 Delete type=2 #137
+2020/02/09-13:29:56.146 d43 Delete type=2 #146

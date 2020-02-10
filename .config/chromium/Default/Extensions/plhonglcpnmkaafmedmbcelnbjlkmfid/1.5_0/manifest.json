@@ -1,0 +1,17 @@
+{
+   "content_scripts": [ {
+      "js": [ "script.js" ],
+      "matches": [ "https://marmoset.student.cs.uwaterloo.ca/*" ]
+   } ],
+   "description": "Marmoset Improved! Better UI and functionality",
+   "icons": {
+      "128": "image/icon128.png",
+      "16": "image/icon16.png",
+      "48": "image/icon48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDTyqs8vMTPAYmtOnYi0qhlg8jnDzWRUfXxL4Y6fNhdAqpYshE+Fpc5UuzZRWfospqDx+j0NxplwCBIIMcG/dHs3mH8a/HtcZWAjvIPx0G9exm3R9j+2muuku2AMaxOkRaS+tGlK19Ht8ZxXba9ATTRHUoUW9zoNNBnWwkWKdqsiwIDAQAB",
+   "manifest_version": 2,
+   "name": "MarmoUI",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.5"
+}

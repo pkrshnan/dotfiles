@@ -1,0 +1,63 @@
+2019/10/28-16:28:12.962 daca7 Reusing MANIFEST /home/hades/.config/chromium/Default/IndexedDB/https_www.walmart.ca_0.indexeddb.leveldb/MANIFEST-000001
+2019/10/28-16:28:12.963 daca7 Recovering log #86
+2019/10/28-16:28:12.963 daca7 Reusing old log /home/hades/.config/chromium/Default/IndexedDB/https_www.walmart.ca_0.indexeddb.leveldb/000086.log 
+2019/10/28-16:28:13.303 daca7 Current memtable full; waiting...
+2019/10/28-16:28:13.303 d7314 Level-0 table #91: started
+2019/10/28-16:28:13.305 d7314 Level-0 table #91: 456 bytes OK
+2019/10/28-16:28:13.324 d7314 Delete type=0 #86
+2019/10/28-16:28:13.325 d7314 Level-0 table #93: started
+2019/10/28-16:28:13.325 d7314 Level-0 table #93: 0 bytes OK
+2019/10/28-16:28:13.332 d7314 Delete type=0 #90
+2019/10/28-16:28:13.332 d7314 Manual compaction at level-0 from '\x00\x12\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x13\x00\x00\x00' @ 0 : 0; will stop at '\x00\x13\x00\x00\x05' @ 200 : 1
+2019/10/28-16:28:13.332 d7314 Compacting 1@0 + 1@1 files
+2019/10/28-16:28:13.333 d7314 Generated table #94@0: 36 keys, 2788 bytes
+2019/10/28-16:28:13.333 d7314 Compacted 1@0 + 1@1 files => 2788 bytes
+2019/10/28-16:28:13.340 d7314 compacted to: files[ 0 1 1 0 0 0 0 ]
+2019/10/28-16:28:13.340 d7314 Delete type=2 #88
+2019/10/28-16:28:13.340 d7314 Delete type=2 #91
+2019/10/28-16:28:13.340 d7314 Manual compaction at level-0 from '\x00\x13\x00\x00\x05' @ 200 : 1 .. '\x00\x13\x00\x00\x00' @ 0 : 0; will stop at (end)
+2019/10/28-16:28:13.350 daca7 Current memtable full; waiting...
+2019/10/28-16:28:13.350 d7314 Level-0 table #96: started
+2019/10/28-16:28:13.351 d7314 Level-0 table #96: 335 bytes OK
+2019/10/28-16:28:13.364 d7314 Delete type=0 #92
+2019/10/28-16:28:13.364 d7314 Level-0 table #98: started
+2019/10/28-16:28:13.364 d7314 Level-0 table #98: 0 bytes OK
+2019/10/28-16:28:13.374 d7314 Delete type=0 #95
+2019/10/28-16:28:13.374 d7314 Manual compaction at level-0 from '\x00\x13\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x14\x00\x00\x00' @ 0 : 0; will stop at '\x00\x13\x00\x00\x05' @ 209 : 0
+2019/10/28-16:28:13.374 d7314 Compacting 1@0 + 1@1 files
+2019/10/28-16:28:13.375 d7314 Generated table #99@0: 34 keys, 2771 bytes
+2019/10/28-16:28:13.375 d7314 Compacted 1@0 + 1@1 files => 2771 bytes
+2019/10/28-16:28:13.376 d7314 compacted to: files[ 0 1 1 0 0 0 0 ]
+2019/10/28-16:28:13.376 d7314 Delete type=2 #94
+2019/10/28-16:28:13.376 d7314 Delete type=2 #96
+2019/10/28-16:28:13.376 d7314 Manual compaction at level-0 from '\x00\x13\x00\x00\x05' @ 209 : 0 .. '\x00\x14\x00\x00\x00' @ 0 : 0; will stop at (end)
+2019/10/28-16:28:21.775 db32d Current memtable full; waiting...
+2019/10/28-16:28:21.775 d7314 Level-0 table #101: started
+2019/10/28-16:28:21.776 d7314 Level-0 table #101: 2325 bytes OK
+2019/10/28-16:28:21.794 d7314 Delete type=0 #97
+2019/10/28-16:28:21.795 d7314 Level-0 table #103: started
+2019/10/28-16:28:21.795 d7314 Level-0 table #103: 0 bytes OK
+2019/10/28-16:28:21.802 d7314 Delete type=0 #100
+2019/10/28-16:28:21.802 d7314 Manual compaction at level-0 from '\x00\x14\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x15\x00\x00\x00' @ 0 : 0; will stop at '\x00\x15\x00\x00\x05' @ 228 : 1
+2019/10/28-16:28:21.802 d7314 Compacting 1@0 + 1@1 files
+2019/10/28-16:28:21.803 d7314 Generated table #104@0: 38 keys, 2849 bytes
+2019/10/28-16:28:21.803 d7314 Compacted 1@0 + 1@1 files => 2849 bytes
+2019/10/28-16:28:21.815 d7314 compacted to: files[ 0 1 1 0 0 0 0 ]
+2019/10/28-16:28:21.815 d7314 Delete type=2 #101
+2019/10/28-16:28:21.815 d7314 Delete type=2 #99
+2019/10/28-16:28:21.815 d7314 Manual compaction at level-0 from '\x00\x15\x00\x00\x05' @ 228 : 1 .. '\x00\x15\x00\x00\x00' @ 0 : 0; will stop at (end)
+2019/10/28-16:28:21.823 db32d Current memtable full; waiting...
+2019/10/28-16:28:21.823 d7314 Level-0 table #106: started
+2019/10/28-16:28:21.824 d7314 Level-0 table #106: 333 bytes OK
+2019/10/28-16:28:21.831 d7314 Delete type=0 #102
+2019/10/28-16:28:21.831 d7314 Level-0 table #108: started
+2019/10/28-16:28:21.831 d7314 Level-0 table #108: 0 bytes OK
+2019/10/28-16:28:21.844 d7314 Delete type=0 #105
+2019/10/28-16:28:21.844 d7314 Manual compaction at level-0 from '\x00\x15\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x16\x00\x00\x00' @ 0 : 0; will stop at '\x00\x15\x00\x00\x05' @ 237 : 0
+2019/10/28-16:28:21.844 d7314 Compacting 1@0 + 1@1 files
+2019/10/28-16:28:21.845 d7314 Generated table #109@0: 36 keys, 2835 bytes
+2019/10/28-16:28:21.845 d7314 Compacted 1@0 + 1@1 files => 2835 bytes
+2019/10/28-16:28:21.846 d7314 compacted to: files[ 0 1 1 0 0 0 0 ]
+2019/10/28-16:28:21.847 d7314 Delete type=2 #104
+2019/10/28-16:28:21.848 d7314 Delete type=2 #106
+2019/10/28-16:28:21.850 d7314 Manual compaction at level-0 from '\x00\x15\x00\x00\x05' @ 237 : 0 .. '\x00\x16\x00\x00\x00' @ 0 : 0; will stop at (end)

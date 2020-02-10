@@ -1,0 +1,6 @@
+2019/10/24-15:21:36.671 72068 Reusing MANIFEST /home/hades/.config/chromium/Default/IndexedDB/https_www.netflix.com_0.indexeddb.leveldb/MANIFEST-000001
+2019/10/24-15:21:36.671 72068 Recovering log #10
+2019/10/24-15:21:36.685 72068 Reusing old log /home/hades/.config/chromium/Default/IndexedDB/https_www.netflix.com_0.indexeddb.leveldb/000010.log 
+2019/10/24-15:28:43.489 502bd Level-0 table #14: started
+2019/10/24-15:28:43.545 502bd Level-0 table #14: 2311975 bytes OK
+2019/10/24-15:28:43.547 502bd Delete type=0 #10

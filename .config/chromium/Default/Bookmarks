@@ -1,0 +1,134 @@
+{
+   "checksum": "97d9a55c493d8a224194abc1aa63d0f4",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "children": [ {
+               "date_added": "13121540115167851",
+               "guid": "a1efa947-e0fc-4af8-9203-900284856c9a",
+               "id": "10",
+               "meta_info": {
+                  "last_visited": "13172695575207071",
+                  "last_visited_desktop": "13148505907162849"
+               },
+               "name": "Reddit",
+               "sync_transaction_version": "2",
+               "type": "url",
+               "url": "https://www.reddit.com/"
+            }, {
+               "date_added": "13121540064205744",
+               "guid": "1e906f84-1c1e-4a72-8ca1-51384b3a85dc",
+               "id": "11",
+               "name": "Hacker News",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "https://news.ycombinator.com/"
+            }, {
+               "date_added": "13140640514990491",
+               "guid": "947ec206-a97c-430a-b6dc-e0a2e2aa19c1",
+               "id": "12",
+               "meta_info": {
+                  "last_visited_desktop": "13140640514991721"
+               },
+               "name": "Home for Econ",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "https://www.realtor.ca/Residential/Single-Family/18193804/3551-13-AV-NW-Edmonton-Alberta-T6L2M1-Crawford-Plains"
+            }, {
+               "date_added": "13217460665049377",
+               "guid": "d604b56f-d501-4c54-99fa-1e043e69f3cf",
+               "id": "14",
+               "name": "Transparency is not working properly · Issue #119 · polybar/polybar",
+               "sync_transaction_version": "14",
+               "type": "url",
+               "url": "https://github.com/polybar/polybar/issues/119"
+            } ],
+            "date_added": "13214713579601074",
+            "date_modified": "13217460665049377",
+            "guid": "54b7a730-b3bc-42dd-a977-063ca5972fa3",
+            "id": "9",
+            "name": "Browsing",
+            "sync_transaction_version": "1",
+            "type": "folder"
+         } ],
+         "date_added": "13214713425916670",
+         "date_modified": "0",
+         "guid": "00000000-0000-4000-A000-000000000002",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13214713425916675",
+         "date_modified": "0",
+         "guid": "00000000-0000-4000-A000-000000000003",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "sync_transaction_version": "14",
+      "synced": {
+         "children": [ {
+            "date_added": "13152140572398041",
+            "guid": "a3844a25-f5f7-401b-b87a-606cc338b3fc",
+            "id": "5",
+            "meta_info": {
+               "last_visited": "13173886690152017"
+            },
+            "name": "A 15-Minute No-Equipment Workout That'll Sculpt Your Abs and Arms",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://www.google.ca/amp/s/www.self.com/story/a-15-minute-no-equipment-workout-thatll-sculpt-your-abs-and-arms/amp"
+         }, {
+            "date_added": "13171506006540702",
+            "guid": "95a97366-c5ac-4a97-b774-3e103c2d8006",
+            "id": "6",
+            "meta_info": {
+               "last_visited": "13172158053701497"
+            },
+            "name": "https://www.google.ca/amp/s/www.forbes.com/sites/erikkain/2018/05/08/fortnite-season-4-week-2-free-blockbuster-challenge-battle-star-location/amp/",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://www.google.ca/amp/s/www.forbes.com/sites/erikkain/2018/05/08/fortnite-season-4-week-2-free-blockbuster-challenge-battle-star-location/amp/"
+         }, {
+            "date_added": "13171913061498209",
+            "guid": "64948c3a-a0d3-4bf9-96c3-47c635cac98a",
+            "id": "7",
+            "meta_info": {
+               "last_visited": "13202155114640798"
+            },
+            "name": "The Dovah - Fortnite Player Stats - Fortnite Tracker",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://fortnitetracker.com/profile/pc/The%20Dovah"
+         }, {
+            "date_added": "13201914668069709",
+            "guid": "4659e343-e27a-4004-bd2a-e0542cd6af44",
+            "id": "8",
+            "meta_info": {
+               "last_visited": "13201914668075390"
+            },
+            "name": "Stop Schedules - Hurontario St At John St, MISSISSAUGA - Triplinx.ca",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://www.triplinx.ca/en/stop-schedules/28/StopSchedules/hurontario-st-at-john-st/6795/hurontario-express/527/brampton-gateway-terminal/1?Date=5%2F9%2F2019&PhysicalId=900691"
+         }, {
+            "date_added": "13221458581098880",
+            "guid": "739c39bd-bdf3-4778-bbbe-2375b62725bc",
+            "id": "16",
+            "name": "Nerf guns | Toys & Games | Mississauga / Peel Region | Kijiji",
+            "type": "url",
+            "url": "https://www.kijiji.ca/v-toys-games/mississauga-peel-region/nerf-guns/1472134280"
+         } ],
+         "date_added": "13214713425916676",
+         "date_modified": "13221458581098880",
+         "guid": "00000000-0000-4000-A000-000000000004",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CtkBCrgBCIiBAhKxARKeAQgCElcKBgoCYm0QARAzGhsJAOHk84WcBQAhAOHk84WcBQAxgCeCWlqUBQAiFAldkF4EhpwFABABGebPY3mxS+Z4MhgKFggCEUW3ZQSGnAUAGAAhAAAAAAAAAAASQQoGCgJiZBAAEDMaGwkA4eTzhZwFACEA4eTzhZwFADGAJ4JaWpQFADIYChYIAhFFt2UEhpwFABgAIQAAAAAAAAAAIABIgMCEgPwtcLLDl8LtLRIAIAEqGHVQZk5kTjRvenUwS3RPV0Z6VGI0RWc9PRKgAQgDEpsBEmZaOkFEcXRBWnd3RThpQmowamlSTTE3NVZGbnVaMnE5aGNEd0lTMnJrSE4zTStOOUZBNVY4emgybThqOWVHSXJwRVd2cHMwRjFyRlBTZ0R3b1AxdEtaUmdqU1A3ZGpHZjBvdVhRPT0YACAAKAAw1M+A0v+D5QI4AEAAShw3OWwrTFJFVXBpYUV2REQrRzQzY3BYU3R3QmM9WgASigIICRKFAhKmAVo6QURxdEFaeEthYWRrUkFqU3hISzNCUjhwNlV3QzEvOGVnaDd2T1NudDBUb25CSmwxWUNRY05EQ0FXOU55ME82cVdsM0dDUG5FWDJiRU43bHkxblNPSUQ4a0RsR0FGWmFRM3A0U0xkTVdML2tmZjR0RGJiL3c3Qk4zbU5jNGlEakRYT0VPS2VDVWVyZjdlV2JJd0IvK3lJYnRGUEd6OHcwQnpRPT0YACAAKAAw7erVh/3rzwI445mawP4qQOOZmsD+KkocOWFaWWg1NUJpa2l3cXVNbjZldnNQZTdvT0FBPVofIh02elNOcDVsQTlLMm4ySEVtcG5YUmNlSER1cE1JPRKJAggLEoQCEqYBWjpBRHF0QVp4S2FhZGtSQWpTeEhLM0JSOHA2VXdDMS84ZWdoN3ZPU250MFRvbkJKbDFZSlNaSmVtN2hkWEFsek9HaFpjTXJRYmRCRVU4bDdtSThnM3RoVzFNM2FjeW9kRnh2Q0xDQUZjMEY5RnV4cVFvYWpsTHB6UEFXbzdrclQxWndxVlNKMkV2bW9vSTVrVFBrRitzeXBKVTczUHFhNHRHcWc9PRgAIAAoADDhitOA7t7QAjjNt5bA/ipAzbeWwP4qShxyNEhNc3A1NHdxYms5WWczQXpYb0prM3RBMjg9Wh4iHG0zZ1pSeXBsQW9MRjNYbnY2MTRNcFFCbk9ZND0SigIIDBKFAhKmAVo6QURxdEFaeEthYWRrUkFqU3hISzNCUjhwNlV3QzEvOGVnaDd2T1NudDBUb25CSmwxWUtVcTRIekYyMWtKd3FySVpiYWx1L3ZMMXdQR3ZuWk05WEhQeFFBTUNxT1dScFFiNkJzVzVKeUpPaG1KZnh0VkFaWjIzMTFIZTcwMVpwQ0RMUVdBQ0lkUjlmRG9XR1phUHMzc2M5ZlpMdml5cTEzd1J3PT0YACAAKAAw1smqipiY1AI4r7f908UrQK+3/dPFK0ocQTk1WkpSVWF3eGQyOHdXZ2JsQ3U2NEVpRnZzPVofIh22a2h6bHdQK054Z2tMRlFLWHlrQXZOSm52V2w4PRKJAggKEoQCEqYBWjpBRHF0QVp4S2FhZGtSQWpTeEhLM0JSOHA2VXdDMS84ZWdoN3ZPU250MFRvbkJKbDFZTUQ3aTJhRmYyMmdaZm9CV3lSRWJNMmlhMFlwWGowYytya1c4WFhFZ3I5KzJiQ3F3LzVYakFSRk8rVnc5ekszelU3enVxTnZ1MytVb3g3cGtRL09KUERQenBBQkxuZWNmOUgwR0ZnY2dQcm9vMktjMnc9PRgAIAAoADC+mIf9/4PlAjjfxZnA/ipA38WZwP4qShxvTVRLVjk2OWZtZndteUNGNEJpWDJINDBTS289Wh4iHDNDcFJEb2ZEQnZHNTFOeko2Z0FlRkpPczN1RT0SigIIBxKFAhKmAVo6QURxdEFaeEthYWRrUkFqU3hISzNCUjhwNlV3Q0dPWnNoNkRWVzI4dlNjblNNZFlMdEVhNFU1bkhJNkdoTEFDUXAyZUpTbWdaVktHMXNMK1lyT2RCZzZXcFo3SVFXNjljTS92M0kxTDE1QVMzSG5XYUdpWW12MGVaZUlYSTh1T1hKUXBJNmhKWmpCdTFEOFFqeTVYZVdzd3RLMFNONzdEc0RnPT0YACAAKAAwscac7L+W4gI4/pjyk7osQP6Y8pO6LEocb3pzdVZ6TVNHa1hDdGxYNWJQWE1uRkRGZEFBPVofIh3aWW9HbHhHSXlYWFpEVEJnSG1nSHFodE1jOVJnPRKKAggGEoUCEqYBWjpBRHF0QVp4S2FhZGtSQWpTeEhLM0JSOHA2VXdDR09ac2g2RFZXMjh2U2NuU01kWUx0T0xJZmVpNjNBTngzNll4MzJhSnZwZE9mdkR3dlF4dDYyVmpFYWNpT3ZMN0VUam9obVlxcmY4blFTYmRRNnVZTDJya1h4S0hzRFVQalo3L3M1TmIwWFRIeDVNZ0REYVB1VSt0RnpSaTF0a2JmZDVqcnc9PRgAIAAoADDq0YiKvK3bAjiPxOXRuCxAj8Tl0bgsShw0YnhFekFiaWRpMVl6N0RIb20wQ1ZUV3ErU0E9Wh8iHbRJYWpiSFhDMXM1ekF6SFptdHBIcW94OXYyaDQ9EooCCAgShQISpgFaOkFEcXRBWnhLYWFka1JBalN4SEszQlI4cDZVd0NZTVRNQXV0NzZRSmFmRmo4VFZ6azV1eUR3eHVRckd4dzFweTZteWZsWVpmM1M4UVVUcnBBUnowVFc3T3dkTktKYTdSTDNlRVRqNDU5SW9NaE1mRDR1eXJHWURnSE9Ubi9sQThhclprZElCL296NzhPVzl1YmRKNTBPc1FJWlRpbHFqd3FMQT09GAAgACgAMNyb543Aj+ICOKn44vWpLUCp+OL1qS1KHGsxUUNUU3k0RTdmdHU4QnM5OGMxNXV1T0drRT1aHyId7WxDa2xPZzZ1YW5seVlkaEZURkJvTFBKRmlxVT0SigIIEBKFAhKmAVo6QURxdEFaeEthYWRrUkFqU3hISzNCUjhwNlV3Q2ZoaVk2VnZOemlNMEFKRllHbkNwZThDaHlRdStLTFliVjAwNlRxRlllTHhiVDVEd0V1SGFiY2RMUG5ISFNCcHVDdjZtNnlpT1JzTWNabUJJV2NvcUZIYVRnV3JMK2wvaHYzazRBZzBHNVp0aC9nZHZGa0tZYjJzdGJRdVFRaHEvSFR4S0J3PT0YACABKAEw3KD6ouCQ5wI469yE3fItQLHai4D8LUocanNLcC9WVE5NVVdreWVpekpHSitoREVhZHlnPVofIh32V2dUanhHc2J2Z21Iemk1OERQaSszOEpYa21rPRKJAggFEoQCEqYBWjpBRHF0QVp4S2FhZGtSQWpTeEhLM0JSOHA2VXdDdG5PUzBoTjBhSWhrZ3BNRlFZTHlIV0RpTzlTcGxFNmd0OXArUGsvN21lQUVDeUVvS1ZRczJBSDE4V1ZOVDNrQWlGdEUwUW1hSkdVaWYxNFpPNW9ycWpMcisxSWpLK0UvMEthMGpFdmc5VWhtTllNNGE0b2V5Um9BRFc1bVVsOHFBYXI4VVE9PRgAIAAoADCg6rHg49/bAjjvndG/8CtA753Rv/ArShxFNUlvYlh4VWtsMFZQRlJlYlhOMVF3VUxVNEk9Wh4iHGhCRlJVVkNmdi9qUVRaMHZmc05rU2RwcTlQYz0SigIIDhKFAhKmAVo6QURxdEFaeEthYWRrUkFqU3hISzNCUjhwNlV3Q3ZFSHc1RERFazF6VjF2VmdNenN1clkwbzBpc1VLcUVNQUlXR0hUTWxHTU9YOEc0NHdKOGc4dVRpTTdPZERxL0gyOWRGVG9WTGxGYTBiWjRPNnpNdGpmU0NSdkE1SVUrU09Ld1lIUzh0YlR3Y1BYTzd0N3hKTGlFN2treVk0Qm5XbkpiQVpRPT0YACAAKAAwy5/sofnT5QI42aXX6uMtQNml1+rjLUocRlZBT1Z4V1dEbHExZU15cU9XaHlTMWgxdkM4PVofIh3bRXgrYjhHenBURkFEdWwvN0FmcmxSd1RaVGZJPRKIAQgBEoMBEk5aOkFEcXRBWnhyb2Y3VlNDaDZjWGxsenYvbEhFRVVhc0JCZFZGa2pKU2M2SGxPVGYvRXMzV3pGZGM2T2diaUgxZDg5ckVudFZURGdBRzkYACAAKAAw1M+A0v+D5QI4AEAAShxVK0dHSXRaRURwWnNJU2xPVWFJVHVJTGRNbkk9WgASoAEIAhKbARJmWjpBRHF0QVp5WFZHSkRXTGtzaGJiZitQaHNaaXdOUXYyMnZDSWU5K0UrQ2ZCYktWeGp5Y2VZbEdyeldjeENUaFZyUkZsM3dPT0U5cnVTaWpXM1d0bUlKbzN6QXJibFBJVERNdz09GAAgACgAMNTPgNL/g+UCOABAAEocNXVzeS9jcGZwaTFFdG9CSERnWElzMHFiNHJBPVoA",
+   "version": 1
+}

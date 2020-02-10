@@ -1,0 +1,33 @@
+2019/10/26-14:05:21.167 9e2df Reusing MANIFEST /home/hades/.config/chromium/Default/IndexedDB/https_www.walmart.ca_0.indexeddb.leveldb/MANIFEST-000001
+2019/10/26-14:05:21.167 9e2df Recovering log #75
+2019/10/26-14:05:21.167 9e2df Reusing old log /home/hades/.config/chromium/Default/IndexedDB/https_www.walmart.ca_0.indexeddb.leveldb/000075.log 
+2019/10/26-14:05:21.534 9e2df Current memtable full; waiting...
+2019/10/26-14:05:21.534 9d0e7 Level-0 table #80: started
+2019/10/26-14:05:21.535 9d0e7 Level-0 table #80: 456 bytes OK
+2019/10/26-14:05:21.547 9d0e7 Delete type=0 #75
+2019/10/26-14:05:21.547 9d0e7 Level-0 table #82: started
+2019/10/26-14:05:21.547 9d0e7 Level-0 table #82: 0 bytes OK
+2019/10/26-14:05:21.554 9d0e7 Delete type=0 #79
+2019/10/26-14:05:21.555 9d0e7 Manual compaction at level-0 from '\x00\x10\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x11\x00\x00\x00' @ 0 : 0; will stop at '\x00\x11\x00\x00\x05' @ 180 : 1
+2019/10/26-14:05:21.555 9d0e7 Compacting 1@0 + 1@1 files
+2019/10/26-14:05:21.556 9d0e7 Generated table #83@0: 34 keys, 2733 bytes
+2019/10/26-14:05:21.556 9d0e7 Compacted 1@0 + 1@1 files => 2733 bytes
+2019/10/26-14:05:21.558 9d0e7 compacted to: files[ 0 1 1 0 0 0 0 ]
+2019/10/26-14:05:21.558 9d0e7 Delete type=2 #80
+2019/10/26-14:05:21.558 9d0e7 Delete type=2 #77
+2019/10/26-14:05:21.558 9d0e7 Manual compaction at level-0 from '\x00\x11\x00\x00\x05' @ 180 : 1 .. '\x00\x11\x00\x00\x00' @ 0 : 0; will stop at (end)
+2019/10/26-14:05:21.578 9e2df Current memtable full; waiting...
+2019/10/26-14:05:21.578 9d0e7 Level-0 table #85: started
+2019/10/26-14:05:21.578 9d0e7 Level-0 table #85: 333 bytes OK
+2019/10/26-14:05:21.579 9d0e7 Delete type=0 #81
+2019/10/26-14:05:21.580 9d0e7 Level-0 table #87: started
+2019/10/26-14:05:21.580 9d0e7 Level-0 table #87: 0 bytes OK
+2019/10/26-14:05:21.592 9d0e7 Delete type=0 #84
+2019/10/26-14:05:21.592 9d0e7 Manual compaction at level-0 from '\x00\x11\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x12\x00\x00\x00' @ 0 : 0; will stop at '\x00\x11\x00\x00\x05' @ 189 : 0
+2019/10/26-14:05:21.592 9d0e7 Compacting 1@0 + 1@1 files
+2019/10/26-14:05:21.599 9d0e7 Generated table #88@0: 32 keys, 2721 bytes
+2019/10/26-14:05:21.599 9d0e7 Compacted 1@0 + 1@1 files => 2721 bytes
+2019/10/26-14:05:21.600 9d0e7 compacted to: files[ 0 1 1 0 0 0 0 ]
+2019/10/26-14:05:21.600 9d0e7 Delete type=2 #83
+2019/10/26-14:05:21.600 9d0e7 Delete type=2 #85
+2019/10/26-14:05:21.600 9d0e7 Manual compaction at level-0 from '\x00\x11\x00\x00\x05' @ 189 : 0 .. '\x00\x12\x00\x00\x00' @ 0 : 0; will stop at (end)

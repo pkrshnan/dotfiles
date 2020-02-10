@@ -1,0 +1,18 @@
+2019/10/10-17:24:42.285 2df28 Reusing MANIFEST /home/hades/.config/chromium/Default/IndexedDB/https_t.17track.net_0.indexeddb.leveldb/MANIFEST-000001
+2019/10/10-17:24:42.285 2df28 Recovering log #27
+2019/10/10-17:24:42.286 2df28 Reusing old log /home/hades/.config/chromium/Default/IndexedDB/https_t.17track.net_0.indexeddb.leveldb/000027.log 
+2019/10/10-17:24:42.867 2db9d Current memtable full; waiting...
+2019/10/10-17:24:42.867 196d7 Level-0 table #32: started
+2019/10/10-17:24:42.868 196d7 Level-0 table #32: 406 bytes OK
+2019/10/10-17:24:42.880 196d7 Delete type=0 #27
+2019/10/10-17:24:42.880 196d7 Level-0 table #34: started
+2019/10/10-17:24:42.880 196d7 Level-0 table #34: 0 bytes OK
+2019/10/10-17:24:42.893 196d7 Delete type=0 #31
+2019/10/10-17:24:42.893 196d7 Manual compaction at level-0 from '\x00\x06\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at '\x00\x06\x00\x00\x05' @ 57 : 1
+2019/10/10-17:24:42.894 196d7 Compacting 1@0 + 1@1 files
+2019/10/10-17:24:42.896 196d7 Generated table #35@0: 8 keys, 607 bytes
+2019/10/10-17:24:42.896 196d7 Compacted 1@0 + 1@1 files => 607 bytes
+2019/10/10-17:24:42.898 196d7 compacted to: files[ 0 1 1 0 0 0 0 ]
+2019/10/10-17:24:42.899 196d7 Delete type=2 #29
+2019/10/10-17:24:42.899 196d7 Delete type=2 #32
+2019/10/10-17:24:42.899 196d7 Manual compaction at level-0 from '\x00\x06\x00\x00\x05' @ 57 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at (end)

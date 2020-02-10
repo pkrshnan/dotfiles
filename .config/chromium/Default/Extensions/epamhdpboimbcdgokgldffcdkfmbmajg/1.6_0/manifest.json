@@ -1,0 +1,16 @@
+{
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "jquery-2.2.3.min.js", "moment-with-locales.min.js", "main.js" ],
+      "matches": [ "https://quest.pecs.uwaterloo.ca/*" ]
+   } ],
+   "description": "Export your University of Waterloo class schedule directly from Quest.",
+   "icons": {
+      "128": "icon.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgoQYpZOoCaVYzKV0m3bCUwQDHLdJULQvQZK8kX+f7uPVgoqV3n7SwZQGE2v9mQ5wmHSE70ZjQ02lDMLimKMIX0d1nkFoCE/w8Zp2OwYcJMjLZt7H9nVWfbXAv2DxmwbQQ59vktZTRuuAQamj6jnbubF5paRI1w45b/B9iasGJ7lFkeFLSbsiu/fGczUFoVbjZqXXSOtwPf0uC+g4dosgwlgSdyFh09vcEEVIpkZdr4+cvFOhy/L5rZSxYT2eua4a9uYrEicgESGM75GuLcbEkFfiCEHKU5DXwHyLohasIqJ6XfrpZThjhDTlZX7rJI736z4OiVUZKPtzbEtQ5NldlQIDAQAB",
+   "manifest_version": 2,
+   "name": "uWaterloo Schedule Exporter",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.6"
+}
