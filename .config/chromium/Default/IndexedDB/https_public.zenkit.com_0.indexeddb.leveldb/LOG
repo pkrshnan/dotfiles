@@ -1,9 +1,0 @@
-2019/10/25-14:48:18.262 8ae05 Reusing MANIFEST /home/hades/.config/chromium/Default/IndexedDB/https_public.zenkit.com_0.indexeddb.leveldb/MANIFEST-000001
-2019/10/25-14:48:18.367 8ae0b Current memtable full; waiting...
-2019/10/25-14:48:18.367 502bd Level-0 table #5: started
-2019/10/25-14:48:18.369 502bd Level-0 table #5: 3625 bytes OK
-2019/10/25-14:48:18.371 502bd Delete type=0 #3
-2019/10/25-14:48:18.371 502bd Level-0 table #7: started
-2019/10/25-14:48:18.371 502bd Level-0 table #7: 0 bytes OK
-2019/10/25-14:48:18.389 502bd Delete type=0 #4
-2019/10/25-14:48:18.389 502bd Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)

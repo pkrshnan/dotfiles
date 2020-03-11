@@ -1,6 +1,0 @@
-2019/11/13-13:06:55.398 70efd Reusing MANIFEST /home/hades/.config/chromium/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2019/11/13-13:06:55.398 70efd Recovering log #3
-2019/11/13-13:06:55.401 70efd Reusing old log /home/hades/.config/chromium/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000003.log 
-2019/11/16-16:39:55.040 5e765 Level-0 table #5: started
-2019/11/16-16:39:55.096 5e765 Level-0 table #5: 1257959 bytes OK
-2019/11/16-16:39:55.097 5e765 Delete type=0 #3
