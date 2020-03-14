@@ -11,7 +11,7 @@
 ; vim:ft=dosini
 
 [colors]
-background = #66160814
+background = #dd282A36
 foreground = #f2f2f2
 background-alt = #00000000
 buffer = #3B4252
