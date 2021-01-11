@@ -97,15 +97,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 alias vim=nvim
 alias cat="bat --theme ansi-dark"
-alias note="Scripts/notes.sh"
-alias aquadrone="cd ~/Developer/aquadrone && workon keras-cnn"
-alias keyboard="~/Scripts/keyboard"
 alias wiki="nvim -c 'VimwikiIndex'"
-alias light="wal -i ~/Wallpapers/Mountains.jpg --saturate 0.7 -l && ~/Scripts/genzathurarc && ~/Scripts/dunst && spicetify apply" 
-alias dark="wal -i ~/Wallpapers/Mountains.jpg --saturate 0.6 && ~/Scripts/genzathurarc && ~/Scripts/dunst && spicetify apply"
-alias scrot="gnome-screenshot -a -c"
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
 
 VISUAL=nvim; export VISUAL EDITOR=nvim; export EDITOR
 export WORKON_HOME=$HOME/.virtualenvs
@@ -114,6 +106,3 @@ source /usr/bin/virtualenvwrapper.sh
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 [[ -s "/usr/local/rvm/scripts/rvm" ]] && source "/usr/local/rvm/scripts/rvm"
-export PATH="~/.npm-global:/home/hades/.local/bin:$PATH"
-
-

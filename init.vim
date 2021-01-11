@@ -12,19 +12,17 @@ Plug 'sheerun/vim-polyglot'
 Plug 'dylanaraps/wal.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'dracula/vim'
-Plug 'posva/vim-vue'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'tpope/vim-fugitive'
 Plug 'mileszs/ack.vim'
 Plug 'vimwiki/vimwiki'
 Plug 'chrisbra/csv.vim'
 Plug 'dense-analysis/ale'
-Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-Plug 'deoplete-plugins/deoplete-jedi'
-Plug 'Shougo/deoplete-clangx'
 Plug 'arcticicestudio/nord-vim'
+Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+Plug 'HerringtonDarkholme/yats.vim'
+Plug 'mhartington/nvim-typescript', {'do': './install.sh'}
 Plug 'takkii/Bignyanco'
-Plug 'carlitux/deoplete-ternjs', { 'do': 'npm install -g tern' }
 Plug 'itchyny/lightline.vim'
 Plug 'maximbaz/lightline-ale'
 Plug 'mengelbrecht/lightline-bufferline'
@@ -32,6 +30,17 @@ Plug 'tweekmonster/django-plus.vim'
 Plug 'drewtempelmeyer/palenight.vim'
 Plug 'tpope/vim-sensible'
 Plug 'tpope/vim-endwise'
+Plug 'burnettk/vim-angular'
+Plug 'autozimu/LanguageClient-neovim', {
+    \ 'branch': 'next',
+    \ 'do': 'bash install.sh',
+    \ }
+Plug 'tpope/vim-rails'
+Plug 'thoughtbot/vim-rspec'
+Plug 'preservim/tagbar'
+Plug 'vim-test/vim-test'
+Plug 'kaicataldo/material.vim', { 'branch': 'main' }
+Plug 'morhetz/gruvbox'
 
 call plug#end()
 
@@ -88,6 +97,10 @@ endif
 
 set wildmenu
 
+" Set splits to be right and below respectively
+set splitright
+set splitbelow
+
 " Theming
 syntax on
 set fillchars=vert::
@@ -99,20 +112,16 @@ autocmd ColorScheme * highlight! Normal ctermbg=NONE guibg=NONE
 set termguicolors
 
 
-let g:palenight_terminal_italics=1
 set background=dark
-colorscheme dracula
+colorscheme gruvbox
 
 " Ease of Use
-set number relativenumber
 set tabstop=2
+set number
+autocmd Filetype ts setlocal tabstop=4
 set shiftwidth=2
 set expandtab
 set hlsearch
-
-"Functionality
-" au BufRead,BufNewFile *.vue set ft=html
-autocmd FileType vue syntax sync fromstart
 
 " Lighline
 set showtabline=2
@@ -154,7 +163,7 @@ let g:lightline = {
       \ 'component_function': {
       \   'gitbranch': 'fugitive#head'
       \ },
-      \ 'colorscheme': 'dracula',
+      \ 'colorscheme': 'gruvbox',
       \ 'mode_map': {
       \   'n'      : ' N ',
       \   'i'      : ' I ',
@@ -184,8 +193,8 @@ vnoremap <silent> d d:call ClipboardYank()<cr>
 nnoremap <silent> p :call ClipboardPaste()<cr>p
 
 " Ale
-" let g:ale_completion_enabled = 1
-let g:ale_set_highlights = 0
+let g:ale_completion_enabled = 1
+let g:ale_set_highlights = 1
 
 "Ack
 if executable('ag')
@@ -200,9 +209,31 @@ autocmd FileType latex,tex,md,markdown setlocal spell
 set spelllang=en_us
 inoremap <C-l> <c-g>u<Esc>[s1z=`]a<c-g>u
 
+" Lang Server
+" Required for operations modifying multiple buffers like rename.
+set hidden
+
+let g:LanguageClient_serverCommands = {
+    \ 'ruby': ['~/.rbenv/shims/solargraph', 'stdio'],
+    \ }
+
+" note that if you are using Plug mapping you should not use `noremap` mappings.
+nmap <F5> <Plug>(lcn-menu)
+" Or map each action separately
+nmap <silent>K <Plug>(lcn-hover)
+nmap <silent> gd <Plug>(lcn-definition)
+nmap <silent> <F2> <Plug>(lcn-rename)
+
 " Deoplete
 let g:deoplete#enable_at_startup = 1
-inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>"
+inoremap <silent><expr> <TAB>
+      \ pumvisible() ? "\<C-n>" :
+      \ <SID>check_back_space() ? "\<TAB>" :
+      \ deoplete#mappings#manual_complete()
+function! s:check_back_space() abort "{{{
+  let col = col('.') - 1
+  return !col || getline('.')[col - 1]  =~ '\s'
+endfunction"}}}
 
 " Mapping
 map <F2> :set paste<CR>i
@@ -214,8 +245,10 @@ map <C-d> :bdelete<CR>
 
 let mapleader = ","
 map <CR> :Buffers<CR>
-imap <expr> <C-tab> emmet#expandAbbrIntelligent("\<C-tab>")
-map <F9> :NERDTreeToggle<CR>
+imap <expr> <C-o> emmet#expandAbbrIntelligent("\<C-o>")
+map <C-f> :NERDTreeToggle<CR>
+map <leader>f :NERDTreeFind<CR>
+map <C-t> :TagbarToggle<CR>
 
 " Customize fzf colors to match your color scheme
 let g:fzf_colors =
@@ -245,3 +278,11 @@ command! -bang -nargs=* Rg
 
 " Trim trailing spaces
 nnoremap <F5> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar><CR>
+
+" Folding
+set foldmethod=indent
+set nofoldenable
+
+" Rspec
+let test#strategy = "neovim"
+

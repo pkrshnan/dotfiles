@@ -1,6 +1,0 @@
-rofi.font: Operator Mono 10
-rofi.padding: 200
-rofi.hide-scrollbar: true
-rofi.theme: ~/.cache/wal/colors-rofi-dark.rasi
-rofi.width: 700
-rofi.scrollbar: true
